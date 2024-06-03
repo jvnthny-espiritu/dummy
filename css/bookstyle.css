@@ -1,4 +1,4 @@
-body {
+* {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
@@ -24,6 +24,7 @@ body {
 	list-style: none;
 	display: inline-block;
 	position: relative;
+	padding: 1rem 0 1rem 0;
 }
 
 .nav-links ul li::after{
@@ -32,7 +33,6 @@ body {
 	height: 2px;
 	background: #2ab7ca;
 	display: block;
-	margin: auto;
 	transition: 0.3s;
 }
 

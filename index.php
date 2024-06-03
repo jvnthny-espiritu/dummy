@@ -6,6 +6,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <style>
 		* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
 			font-family: Arial, Helvetica, sans-serif;
 		}
 
@@ -27,6 +30,7 @@
             text-decoration: none;
 			font-weight: 900;
             font-size: 15px;
+            margin: 0 10px;
         }
 
         .nav-links ul li:hover::after {
@@ -58,6 +62,25 @@
 			text-align: center
 		}
 
+        .villa-section {
+            padding: 80px 0;
+            background-color: #fff;
+            text-align: center;
+        }
+
+        .villa-section h1 {
+            font-size: 36px;
+            color: #007bff;
+        }
+
+        .villa-section p {
+            font-size: 18px;
+        }
+
+        #villaCarousel {
+            margin: 0 100px;
+        }
+
         .carousel-item img {
             object-fit: cover; 
             height: 750px;
@@ -67,7 +90,6 @@
             border-radius: 10px;
             padding: 10px;
         }
-
 
         .about-section {
             padding: 80px 0;
@@ -154,7 +176,7 @@
     </section>
 
 <!-- Villas and Rooms -->
-<section class="villa" id="villa_id">
+<section class="villa-section" id="villa_id">
 	<h1>Villas and Rooms</h1>
 	<p>Take a look at our villas and rooms!</p>
 	<div id="villaCarousel" class="carousel slide" data-bs-ride="carousel">
@@ -231,40 +253,55 @@
             <div class="col-md-4">
                 <div class="room-card">
                     <div class="room-card-body">
-                        <h3 class="room-card-title">Small Villa</h3>
-                        <p class="room-card-text">Ideal for 1 to 3 guests. 40 m² - Balcony - Garden view - Pool with a view - Inner courtyard view - Air conditioning - Ensuite bathroom - Terrace - Free WiFi</p>
+                        <h3 class="room-card-title"><b>Small Villa</b></h3>
+                        <p class="room-card-text">Ideal for 1 to 3 guests. 
+                        <br>40 m² - Balcony - Garden view - Pool with a view - Inner courtyard view - Air conditioning - Ensuite bathroom - Terrace - Free WiFi</p>
                     </div>
                 </div>
             </div>
 			<div class="col-md-4">
                 <div class="room-card">
                     <div class="room-card-body">
-                        <h3 class="room-card-title">Small Villa</h3>
-                        <p class="room-card-text">Ideal for 1 to 3 guests. 40 m² - Balcony - Garden view - Pool with a view - Inner courtyard view - Air conditioning - Ensuite bathroom - Terrace - Free WiFi</p>
+                        <h3 class="room-card-title"><b>Deluxe Villa</b></h3>
+                        <p class="room-card-text">Bedroom: 1 Queen Size Bed 
+                        Bedroom 2: 1 Double Bed room for 3 to 4 persons
+                        <br>70 m² - Balcony - Garden view - Pool 
+                        with a view - Inner courtyard view - Patio - Air conditioning - 
+                        Ensuite bathroom - Terrace - Free WiFi</p>
                     </div>
                 </div>
             </div>
 			<div class="col-md-4">
                 <div class="room-card">
                     <div class="room-card-body">
-                        <h3 class="room-card-title">Small Villa</h3>
-                        <p class="room-card-text">Ideal for 1 to 3 guests. 40 m² - Balcony - Garden view - Pool with a view - Inner courtyard view - Air conditioning - Ensuite bathroom - Terrace - Free WiFi</p>
+                        <h3 class="room-card-title"><b>Premium Villa</b></h3>
+                        <p class="room-card-text"> 3 Bedroom: 3 Queen Size Bed
+                        Room for maximum of 6 persons
+                        <br>70 m² - Balcony - Garden view - Pool 
+                        with a view - Inner courtyard view - Air conditioning - 
+                        Ensuite bathroom - Terrace - Free WiFi</p>
                     </div>
                 </div>
             </div>
 			<div class="col-md-4">
                 <div class="room-card">
                     <div class="room-card-body">
-                        <h3 class="room-card-title">Small Villa</h3>
-                        <p class="room-card-text">Ideal for 1 to 3 guests. 40 m² - Balcony - Garden view - Pool with a view - Inner courtyard view - Air conditioning - Ensuite bathroom - Terrace - Free WiFi</p>
+                        <h3 class="room-card-title"><b>Standard Room</b></h3>
+                        <p class="room-card-text">1 Double - Sized Bed for 1 to 2 person 
+                        <br>30 m² - Balcony - Garden view - Pool 
+                        with a view - Inner courtyard view - Air conditioning - 
+                        Ensuite bathroom - Terrace - Free WiFi</p>
                     </div>
                 </div>
             </div>
 			<div class="col-md-4">
                 <div class="room-card">
                     <div class="room-card-body">
-                        <h3 class="room-card-title">Small Villa</h3>
-                        <p class="room-card-text">Ideal for 1 to 3 guests. 40 m² - Balcony - Garden view - Pool with a view - Inner courtyard view - Air conditioning - Ensuite bathroom - Terrace - Free WiFi</p>
+                        <h3 class="room-card-title"><b>Standard Double Bedroom</b></h3>
+                        <p class="room-card-text">1 room - 2 Single Size Bed for 1 to 2 person 
+                        <br>30 m² - Balcony - Garden view - Pool 
+                        with a view - Inner courtyard view - Air conditioning - 
+                        Ensuite bathroom - Terrace - Free WiFi</p>
                     </div>
                 </div>
             </div>
