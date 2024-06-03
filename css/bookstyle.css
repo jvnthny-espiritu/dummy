@@ -1,8 +1,8 @@
-*{
+body {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 .header{
@@ -12,37 +12,18 @@
 	background-position: center;
 	background-size: cover;
 	position: relative;
-	
-}
-
-nav{
-	display: flex;
-	padding: 2% 6%;
-	justify-content: space-between;
-	align-items:center;
-}
-
-nav img{
-	width: 175px;
-	
 }
 
 .nav-links{
 	flex: 1;
 	text-align: right;
+	overflow: hidden;
 }
 
 .nav-links ul li{
 	list-style: none;
 	display: inline-block;
-	padding: 8px 12px;
 	position: relative;
-}
-
-.nav-links ul li a{
-	color:#fff;
-	text-decoration: none;
-	font-size: 13px;
 }
 
 .nav-links ul li::after{
@@ -59,126 +40,6 @@ nav img{
 	width: 100%;
 }
 
-.text-box{
-	width: 90%;
-	color: #fff;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%,-50%);
-	text-align: center;
-}
-
-.text-box h1{
-	font-size: 62px;
-}
-
-.text-box p{
-	margin: 10px 0 40px;
-	color: #fff;
-	text-align: center;
-}
-
-
-
-.about{
-	width: 80%;
-	margin: auto;
-	text-align: center;
-	padding-top: 100px;
-}
-
-h1{
-	font-size: 36px;
-	font-weight: 600;
-}
-
-p{
-	color: #777;
-	font-size: 18px;
-	font-weight: 300;
-	line-height: 35px;
-	padding: 10px;
-	text-decoration-color: #d0e1f9;
-}
-
-.row{
-	margin-top: 3%;
-	display: flex;
-	justify-content: space-between;
-}
-
-.about-col{
-	flex-basis: 31%;
-	background: #d0e1f9;
-	border-radius: 10px;
-	margin-bottom: 5%;
-	padding: 20px 12px;
-	box-sizing: border-box;
-	transition: 0.5s;
-}
-
-h3{
-	text-align: center;
-	font-weight: 600;
-	margin: 10px 0;
-}
-
-.about-col:hover{
-	box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
-}
-
-.villa{
-	width: 80%;
-	margin: auto;
-	text-align: center;
-	padding-top: 50px;
-}
-
-.villa-col{
-	flex-basis: 32%;
-	border-radius: 10px;
-	margin-bottom: 30px;
-	position: relative;
-	overflow: hidden;
-}
-
-.villa-col img{
-	width: 100%;
-	display: block;
-}
-
-
-.layer{
-	background: transparent;
-	height: 100%;
-	width: 100%;
-	position: absolute;
-	top: 0;
-	left: 0;
-	color: #fff;
-	transition: 0.3s;
-}
-
-
-.layer h3{
-	width: 100%;
-	font-weight: 500;
-	color: #fff;
-	font-size: 26px;
-	bottom: 0;
-	left: 15%;
-	transform: translateX(-50px);
-	position: center;
-	opacity: 0;
-	transition: 0.5s;
-}
-
-.layer:hover h3{
-	bottom: 49%;
-	opacity: 1;
-}
-
 .contact{
 	width: 100%;
 	text-align: center;
@@ -193,10 +54,9 @@ h3{
 
 .contact, .icons{
 	flex-basis: 44%;
-	border-radius: 10px;
-	margin-bottom: 5%;
+	color: #fff;
 	text-align: center;
-	background: #d0e1f9;
+	background: #040273;
 	padding: 20px;
 	cursor: pointer;
 	display: inline-block;

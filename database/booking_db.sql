@@ -83,12 +83,11 @@ INSERT INTO `services` (`service_id`, `service_name`, `price`, `available_slots`
 
 CREATE TABLE `user` (
   `id` int(30) NOT NULL,
-  `user_id` varchar(50) NOT NULL,
   `name` text NOT NULL,
   `username` varchar(50) NOT NULL,
-  `password` varchar(50) NOT NULL,
-  `age` int(3) NOT NULL,
-  `gender` varchar(30) NOT NULL,
+  `password` varchar(255) NOT NULL,
+  `age` int(3) DEFAULT NULL,
+  `gender` varchar(30) DEFAULT NULL,
   `address` varchar(50) NOT NULL,
   `email` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
